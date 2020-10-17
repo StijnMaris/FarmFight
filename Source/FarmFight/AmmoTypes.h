@@ -19,4 +19,7 @@ struct FAmmoTypeDatatableRow : public FTableRowBase
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FLinearColor AmmoColor;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TSubclassOf<AActor> ProjectileActor;
 };
